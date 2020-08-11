@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+        }
+
+        .parent {
+            background: url("4.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .msg {
+            font-size: 64px;
+            background: transparent;
+            color: snow;
+            padding: 0.8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            border-bottom: 5px solid snow;
+        }
+    </style>
+
+    <script src="6.js">
+    </script>
+</head>
+
+<body>
+    <div id="id1" class="parent">
+        <div id="id2" class="msg" onmouseover="handleMouseover()" onmouseout="handleMouseout()">Hello Sky..!!
+        </div>
+    </div>
+</body>
+
+</html>
