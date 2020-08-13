@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whatsapp</title>
+    <link rel="stylesheet" href="whatsapp.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<script src="whatsapp.js"></script>
+
+<body>
+    <div class="full">
+        <div class="left"></div>
+        <div class="main">
+            <div class="header">
+                <ul style="display: flex; list-style-type:none; align-items: center;">
+                    <li><i class="fa fa-arrow-left" aria-hidden="true"
+                            style="font-size: 1.5rem; color:white; padding-right: 0.1em;"></i></li>
+                    <li><img src="100.jpg" alt=""
+                            style="height: 50px; width: 50px; border-radius: 50%;  margin-left: 10px; margin-top: 6px;">
+                    </li>
+                    <!-- <li><i class="fa fa-user-circle" aria-hidden="true" -->
+                    <!-- style="font-size: 2rem; color:white; padding-left: 1rem;"></i></li>   -->
+                    <li><i style="  font-size: 1.4rem; color: white; padding-left: 1rem; font-family:sans-serif;">Akash
+                            Gupta</i></li>
+                    <li><i class="fa fa-video-camera" aria-hidden="true"
+                            style="font-size: 1.8rem; color:white; padding-left: 1.8rem;"></i></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"
+                            style="font-size: 1.8rem; color:white; padding-left: 1.8rem;"></i></li>
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"
+                        style="font-size: 1.8rem; color:white; padding-left: 1.5rem;"></i>
+                </ul>
+            </div>
+
+
+            <div class="middle" id="middle">
+                <!-- To clone -->
+                <div id="main">
+                    <div id="placeComment" style=" width: 40vh;
+                    font-size: 1em;
+                    background: #dcf8c6;
+                    margin-top: 0.5em;  
+                    height:2rem;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 0.3em;
+                    padding-left: 0.5em;
+                    border-radius: 10%;
+                    display: none;
+                    "> Place the value</div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div><input id="input" type="text" placeholder="Type a message"
+                        style="font-size: 1.2rem; padding-left: 1rem; border-radius: 20px; width: 21rem;">
+                </div>
+
+                <div><button type="submit" onclick="sendmsg()" style=" border: none;"><i
+                            class="fa fa-arrow-circle-right" aria-hidden="true"
+                            style="font-size: 2rem; color:rgb(18,140,126); padding-right: 0.8rem;"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right"></div>
+    </div>
+</body>
+
+</html>
