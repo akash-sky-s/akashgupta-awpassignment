@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<script src="3.js"></script>
+
+<body>
+    <div class="container-fluid ">
+        <!-- Menu bar -->
+        <div class="row bg-dark justify-content-center align-items-center  " style="height: 3.5rem;">
+            <div class="col-6 cl-md-3 text-light" style="font-size: 1.3rem;">My Project</div>
+            <div class="col-6 cl-md-3 text-light d-flex justify-content-end" style="font-size: 1.3rem;">Logout</div>
+        </div>
+
+        <!-- Row 1 -->
+        <div class="row justify-content-center align-items-center">
+            <div class="col-6 cl-md-3 border d-flex justify-content-center align-items-center" style="height: 35vh;">
+                Post Here
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row justify-content-center" style="height: 5vh;">
+            <div class="col-1  p-0 rounded"><button type="button" class="btn btn-outline-primary btn-block"
+                    onclick="btnlike()" id="like">Like</button>
+            </div>
+            <div class="col-4  p-0 rounded"><input class="form-control" type="text" placeholder="Add Comment Here"
+                    id="input">
+            </div>
+            <div class="col-1  p-0 rounded"><button type="button" class="btn btn-outline-secondary btn-block"
+                    onclick="btnComment()">Comment</button>
+            </div>
+
+        </div>
+
+        <!-- Row 3 -->
+        <div class="d-flex flex-column" id="mainBox">
+            <!-- To clone -->
+            <div class="row justify-content-center" style="margin-top: 15px; visibility: hidden;" id="commentBox">
+                <div class="col-5 p-0" id="referenceComment">Sample Comment</div>
+                <div class="col-1 p-0"><button type="button" class="btn btn-outline-danger btn-block"
+                        onclick="btnDelete(this)" id="btnDelete">Delete</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
